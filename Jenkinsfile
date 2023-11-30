@@ -16,6 +16,11 @@ pipeline{
 				echo "Integrate"
 			}
 		}
+		stage('Aise hi'){
+			steps{
+				echo "Aise hi"
+			}
+		}
 	}
 	post{
 		always {

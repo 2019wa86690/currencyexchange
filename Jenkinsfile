@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('Build'){
 			steps{
-				echo'Build'
+				echo "Build"
 				}
 		}
 	}
@@ -11,14 +11,15 @@ pipeline{
 		stage('Test'){
 			steps{
 				
-				echo 'test'
+				echo "test"
 				}
 		}
 	}
 	stages{
 		stage('Integrate'){
 			steps{
-				echo 'Integration'}
+				echo "Integration"
+			}
 		}
 	}
 }

@@ -1,15 +1,15 @@
 pipeline{
 	agent any
 	stages{
-		stage'Build'{
+		stage('Build'){
 			steps{
 				ehco "Build"}
 		}
-		stage 'Test'{
+		stage ('Test'){
 			steps{
 				echo "Test"}
 		}
-		stage 'Integrate'{
+		stage ('Integrate'){
 			steps{
 				echo "Integrate"}
 		}

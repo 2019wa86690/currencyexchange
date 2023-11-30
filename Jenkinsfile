@@ -16,6 +16,16 @@ pipeline{
 				echo "Integrate"
 			}
 		}
+	}post{
+		always {
+			echo "I am Awesome. I run always"
+		}
+		success{
+			echo "I run when all are successful"
+		}
+		failure {
+			echo "I run when you fail"
+		}
 	}
 }
 			
